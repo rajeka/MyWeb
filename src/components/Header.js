@@ -1,4 +1,3 @@
-import React, { useEffect, useRef } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
 import {
@@ -6,7 +5,6 @@ import {
   faLinkedin,
   faMedium,
   faStackOverflow,
-  faFortAwesome,
 } from '@fortawesome/free-brands-svg-icons';
 import { Box, HStack } from '@chakra-ui/react';
 import useScrollHeader from '../hooks/useScrollHeader';
@@ -46,7 +44,6 @@ const Header = () => {
       top={0}
       left={0}
       right={0}
-      // translateY={0}
       transform={tf}
       transitionProperty="transform"
       transitionDuration=".3s"

@@ -29,7 +29,7 @@ const LandingSection = () => (
       <div className="me">{bio1}</div>
       <div className="bio-more">{bio2}</div>
       <p className="myself">
-        <Link variant="plain" href="my_profile.pdf" target="_blank">
+        <Link variant="plain" href="../images/my_profile.pdf" target="_blank">
           My Resume
         </Link>
       </p>
