@@ -1,0 +1,24 @@
+.construction {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.photo-img {
+  width: 350px;
+  height: 200px;
+  border-radius: 10%;
+  border: 2px solid #61dafb;
+}
+
+.title {
+  font-size: 2rem;
+  color: #bfbfbf;
+}
+.link {
+  color: #bfbfbf;
+}
+.link:hover {
+  color: #61dafb;
+}
