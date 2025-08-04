@@ -1,4 +1,4 @@
-import * as React from 'react';
+import React from 'react';
 import { VStack } from '@chakra-ui/react';
 
 /**

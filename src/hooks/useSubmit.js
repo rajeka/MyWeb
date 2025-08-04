@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import React, { useState } from 'react';
 
 const wait = (ms) => new Promise((resolve) => setTimeout(resolve, ms));
 

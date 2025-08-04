@@ -30,20 +30,9 @@ const router = createBrowserRouter([
 function App() {
   return (
     <ChakraProvider>
-      <RouterProvider router={router}>
-        <AlertProvider>
-          {/*<main>
-          
-            <Header />
-            <LandingSection />
-            <ProjectsSection />
-          <ContactMeSection />
-            <Footer />
-            <Alert />
-          </main>*/}
-        </AlertProvider>
-      </RouterProvider>
-      {/* </AlertProvider> */}
+      <AlertProvider>
+        <RouterProvider router={router} />
+      </AlertProvider>
     </ChakraProvider>
   );
 }
