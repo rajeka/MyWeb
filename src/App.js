@@ -7,6 +7,7 @@ import Layout from './Layout';
 import { AlertProvider } from './context/alertContext';
 import Construction from './components/Construction';
 import NotFound from './components/NotFound';
+import Alert from './components/Alert';
 const router = createBrowserRouter([
   {
     path: '/',
@@ -31,7 +32,9 @@ function App() {
   return (
     <ChakraProvider>
       <AlertProvider>
-        <RouterProvider router={router} />
+        <RouterProvider router={router}>
+          <Alert />
+        </RouterProvider>
       </AlertProvider>
     </ChakraProvider>
   );
